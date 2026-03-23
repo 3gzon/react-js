@@ -1,14 +1,16 @@
 
 import './App.css'
-import State from "./components/State";
-import UseEffect from "./components/UseEffect";
+import WelcomeComponent from "./components/WelcomeComponent";
+import StatusMessage from "./components/StatusMessage";
+import StudentsList from "./components/StudentsList";
 
 function App() {
 
   return (
     <>
-      <State />
-      <UseEffect />
+      <WelcomeComponent isLoggedIn={false} />
+      <StatusMessage isOnline={true} />
+      <StudentsList />
     </>
   )
 }
