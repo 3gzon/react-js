@@ -22,7 +22,7 @@ function State() {
             <button onClick={() => setCount(count + 1)}>
                 increase
             </button>
-            <h1 style={{color: red;}}>{count}</h1>
+            <h1>{count}</h1>
             <div>
                 <input type="text"
                 onChange={(event)=>setName(event.target.value)}
