@@ -9,6 +9,7 @@ import TwoStateComponent from "./components/TwoStateComponent";
 import RenderList from "./components/Lists/RenderList";
 import RenderListObjects from "./components/Lists/RenderListObjects";
 import Courses from "./components/Lists/Courses";
+import FormSubmit from "./components/form/FormSubmit";
 
 function App() {
   const courses = [
@@ -65,7 +66,8 @@ function App() {
       }
     
       <hr />
-
+      <FormSubmit />
+      <hr />
     </>
   )
 }
